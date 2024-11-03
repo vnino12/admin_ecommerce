@@ -11,6 +11,6 @@
     app.use('/uploads', express.static('uploads'));
 
 
-    app.listen(1218, ()=>{
-        console.log('server is runnong on http://localhost:1218')
+    app.listen(5555, ()=>{
+        console.log('server is runnong on http://localhost:5555')
     })

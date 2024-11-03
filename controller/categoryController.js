@@ -30,8 +30,7 @@ const categoryController = {
         });
     },
     deleteCategories: (req, res) =>{
-        const { id } = req.params;
-        console.log("Deleting category with ID:", id); 
+        const { id } = req.params; 
         category.deleteCategories(id, (err) => {
             if(err){
                 return res.status(500).send('Error deleting product');
